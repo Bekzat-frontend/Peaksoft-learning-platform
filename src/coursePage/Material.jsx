@@ -40,7 +40,15 @@ function Material() {
         </div>
         <Styledtext>
           <span>Показать</span>
-          <button>6</button>
+          <button
+            style={{
+              padding: "6px 20px",
+
+              border: "1px solid blue",
+            }}
+          >
+            6
+          </button>
           <span>из 21</span>
         </Styledtext>
       </div>
@@ -49,6 +57,11 @@ function Material() {
 }
 const Styledtext = styled.div`
   font-size: 20px;
+
+  margin-top: 40px;
+  margin-left: 55%;
+  display: flex;
+  column-gap: 13px;
 `;
 
 const StyledDivHome = styled.div`

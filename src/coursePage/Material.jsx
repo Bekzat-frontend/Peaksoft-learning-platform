@@ -38,15 +38,18 @@ function Material() {
             1
           </button>
         </div>
-        <div >
+        <Styledtext>
           <span>Показать</span>
           <button>6</button>
           <span>из 21</span>
-        </div>
+        </Styledtext>
       </div>
     </StyledDiv>
   );
 }
+const Styledtext = styled.div`
+  font-size: 20px;
+`;
 
 const StyledDivHome = styled.div`
   display: grid;

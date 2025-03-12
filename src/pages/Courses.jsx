@@ -72,6 +72,17 @@ function Courses() {
   const navigate = useNavigate();
   return (
     <Container>
+      <h1
+        style={{
+          color: "black",
+          marginTop: "-1px",
+          paddingTop: "30px",
+          paddingLeft: "30px",
+          fontSize: "40px",
+        }}
+      >
+        Мои курсы
+      </h1>
       <DecriptionContainer>
         {COURSES.map((items, id) => (
           <StyledCard key={id}>
@@ -129,6 +140,7 @@ const Image = styled.img`
 `;
 
 const DecriptionContainer = styled.div`
+  background-color: #f2f2f2;
   padding: 20px 16px;
   display: grid;
   grid-template-columns: repeat(3, 1fr);

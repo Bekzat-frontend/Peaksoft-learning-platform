@@ -9,6 +9,7 @@ function Header() {
       <StyledSpan>
         <HiGlobeAlt />
       </StyledSpan>
+      <hr />
     </StyledHeader>
   );
 }

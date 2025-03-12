@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import Pagination from "./Pagination";
 
 function Material() {
   return (
@@ -22,6 +23,7 @@ function Material() {
           6 Lesson - 6 State Batch | Lifting state up | Children
         </StyledLesson>
       </StyledDivHome>
+      <Pagination />
     </StyledDiv>
   );
 }
